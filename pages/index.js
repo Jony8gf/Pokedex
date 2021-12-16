@@ -26,12 +26,16 @@ export default function Home({ pokemon }) {
     if(pkm != null){
         return (
             <div>
-                {/* <h1>POKEDEX</h1> */}
-                <h1><a className="h1-title" href="/">POKEDEX</a></h1>
+                <h1>
+                    <Link href="/">
+                        <a className="h1-title">POKEDEX</a>
+                    </Link>
+                </h1>
+                {/* <h1><a className="h1-title" href="/">POKEDEX</a></h1> */}
                 <div className="container">
                   <div className="row">
                           <div className="col-10">
-                              <input id="text" class="form-control form-control-lg" type="text" placeholder="Pikachu" onSubmit={buscarPokemon}></input>
+                              <input id="text" className="form-control form-control-lg" type="text" placeholder="Pikachu" onSubmit={buscarPokemon}></input>
                           </div>
                           <div className="col-2">
                               <button type="submit"  onClick={buscarPokemon} className="btn-lg btn-outline-primary mb-1">Buscar</button>
@@ -64,10 +68,10 @@ export default function Home({ pokemon }) {
                 <div className="container">
                   <div className="row">
                           <div className="col-10">
-                              <input id="text" class="form-control form-control-lg" type="text" placeholder="Pikachu"></input>
+                              <input id="text" className="form-control form-control-lg" type="text" placeholder="Pikachu"></input>
                           </div>
                           <div className="col-2">
-                              <button type="submit"  onClick={buscarPokemon} class="btn-lg btn-outline-primary mb-1">Buscar</button>
+                              <button type="submit"  onClick={buscarPokemon} className="btn-lg btn-outline-primary mb-1">Buscar</button>
                           </div>
                   </div>
                 </div>

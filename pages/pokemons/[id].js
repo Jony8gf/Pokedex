@@ -120,7 +120,13 @@ const Pokemon = ({data , ablt, move}) => {
     return(
 
         <div>
-            <h1><a className="h1-title" href="/">POKEDEX</a></h1>
+            {/* <h1><a className="h1-title" href="/">POKEDEX</a></h1> */}
+            <h1>
+                <Link href="/">
+                    <a className="h1-title">POKEDEX</a>
+                </Link>
+            </h1>
+            
             <div className="container-xl-personal">
                 <div className="pkm-card-xl" key={data.id}>
 
