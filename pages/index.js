@@ -31,7 +31,6 @@ export default function Home({ pokemon }) {
                         <a className="h1-title">POKEDEX</a>
                     </Link>
                 </h1>
-                {/* <h1><a className="h1-title" href="/">POKEDEX</a></h1> */}
                 <div className="container">
                   <div className="row">
                           <div className="col-10">
