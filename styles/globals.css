@@ -2,6 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  background-color: rgb(241, 145, 145);
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -13,4 +14,322 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Luckiest Guy";
+  font-weight: 900;
+  font-size: 4.25rem;
+  color: yellow;
+  -webkit-text-stroke: 0.1rem blue;
+}
+
+.h1-title{
+  text-align: center;
+  font-family: "Luckiest Guy";
+  font-weight: 900;
+  font-size: 4.25rem;
+  color: yellow;
+  -webkit-text-stroke: 0.1rem blue;
+}
+
+.container-personal {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.container-xl-personal {
+  margin: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+.pkm-card {
+  height: 15rem;
+  width: 15rem;
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pkm-card-xl {
+  height: 100%;
+  width: 720px;
+  padding: 0rem;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* box-shadow: 1px 1px 3px 2px #000000; */
+  /* background-color: red; */
+  background-color: rgb(241, 145, 145);
+}
+
+.pkm-card-xl-header {
+  height: 780px;
+  width: 720px;
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 3px 2px #000000;
+  margin: 0.5rem;
+}
+
+.pkm-card-xl-abilities{
+  height: 180px;
+  width: 720px;
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 3px 2px #000000;
+  margin: 0.5rem;
+}
+
+.pkm-card-xl-types{
+  height: 480px;
+  width: 720px;
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 3px 2px #000000;
+  margin: 0.5rem;
+}
+
+.pkm-card-xl-stats{
+  height: 125%;
+  width: 720px;
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 3px 2px #000000;
+  margin: 0.5rem;
+}
+
+.pkm-card-xl-moves{
+  height: 100%;
+  width: 720px;
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 3px 2px #000000;
+  margin: 0.5rem;
+}
+
+.pkm-card:hover {
+ transform: scale(1.1);
+ box-shadow: 1px 2px 15px 4px #000000;
+}
+
+.pkm-images-xl {
+  height: 70%;
+  width: 70%;
+  margin: 0;
+}
+
+.pkm-images {
+  height: 100%;
+  width: 100%;
+}
+
+.type {
+  font-size: 0.5rem;
+}
+
+.types{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.abilities{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.types img {
+  margin: 0.3rem;
+}
+
+.abilities a {
+  margin: 0.5rem;
+  font-size: 0.75rem;
+  color: rgb(255, 135, 135);
+}
+
+.abilities-text{
+  margin: 0.5rem;
+  font-size: 0.75rem;
+  color: rgb(255, 135, 135);
+  cursor: pointer;
+}
+
+.abilities{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.moves{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.moves-text{
+  margin: 0.5rem;
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.moves-text:hover{
+  color: rgb(255, 135, 135);
+  cursor: pointer;
+}
+
+.scroll-to-top{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 760px;
+  display: flex;
+  justify-content: right;
+  margin: 15px;
+}
+
+.scroll-to-top p {
+  font-size: 88px;
+  cursor: pointer;
+  background: #ffffff;
+  border-radius: 25px;
+}
+
+.title-content{
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.title-id{
+  font-style: italic;
+}
+
+.moveDesc Type{
+  width: 48;
+  height: 18;
+}
+
+.power{
+  display: flex;
+}
+
+.ppower .power{
+  float: left;
+  width: 125px;
+  text-align: right;
+  margin: 2px 45px;
+  display: inline;
+}
+
+.ppower .accuracy{
+  float: center;
+  width: 125px;
+  text-align: right;
+  margin: 2px 45px;
+  display: inline;
+}
+
+.ppower .pp{
+  float: left;
+  text-align: left;
+  margin: 2px 10px;
+  display: inline;
+}
+
+.moveTitle{
+  display: flex;
+}
+
+.moveTitle *{
+   margin: 0.25rem;
+}
+
+.moveTitle h4{
+  margin: 0.80rem;
 }
